@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NayePankh Foundation – Think Global, Act Local</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:wght@700;800;900&display=swap" rel="stylesheet" />
+</head>
+<body class="dark-mode">
+
+  <!-- ========== LOADING SCREEN ========== -->
+  <div id="loader" class="loader">
+    <div class="loader-inner">
+      <div class="loader-wings">🕊️</div>
+      <div class="loader-text">NayePankh Foundation</div>
+      <div class="loader-bar"><div class="loader-fill"></div></div>
+    </div>
+  </div>
+
+  <!-- ========== NAVBAR ========== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#home" class="nav-logo">
+        <!-- SVG Logo placeholder matching the original winged logo style -->
+        <div class="logo-wrap">
+          <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="25" cy="30" rx="8" ry="10" fill="#e8b04a"/>
+            <!-- Wings -->
+            <path d="M5 28 Q15 10 25 22 Q15 22 5 28Z" fill="#4caf50"/>
+            <path d="M45 28 Q35 10 25 22 Q35 22 45 28Z" fill="#2196f3"/>
+            <circle cx="25" cy="20" r="5" fill="#f06292"/>
+          </svg>
+          <div class="logo-text">
+            <span class="logo-hindi">नए पंख</span>
+            <span class="logo-sub">Foundation</span>
+          </div>
+        </div>
+      </a>
+
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About Us</a></li>
+        <li><a href="#programs" class="nav-link">Programs</a></li>
+        <li><a href="#team" class="nav-link">Our Certificates</a></li>
+        <li><a href="#recognition" class="nav-link">NewsPaper</a></li>
+        <li><a href="#contact" class="nav-link">Donate</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+          <span class="sun">☀️</span>
+          <span class="moon">🌙</span>
+        </button>
+        <a href="#chatbot" class="btn-ai-chat">🤖 AI Assistant</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ========== HERO SECTION ========== -->
+  <section id="home" class="hero">
+    <!-- Animated background blobs -->
+    <div class="hero-bg">
+      <div class="blob blob-1"></div>
+      <div class="blob blob-2"></div>
+      <div class="blob blob-3"></div>
+    </div>
+
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+      <div class="hero-badge reveal">
+        <span>🏛️</span> UP GOVT. | 80G & 12A Registered NGO
+      </div>
+
+      <h1 class="hero-title reveal">
+        It's that easy to<br/>
+        <span class="hero-accent">bring a Smile</span><br/>
+        on Their Faces
+      </h1>
+
+      <p class="hero-sub reveal">
+        We don't ask for much, just help us with what you can —<br/>
+        Be it Money, Skill or Your Time
+      </p>
+
+      <p class="hero-tagline reveal">
+        One of the Biggest Student-led NGOs of India, operating in<br/>
+        <strong>Kanpur, Ghaziabad</strong> and various other cities.
+      </p>
+
+      <div class="hero-cta reveal">
+        <a href="#contact" class="btn-primary">Donate Now</a>
+        <a href="#programs" class="btn-secondary">Our Programs</a>
+        <a href="#chatbot" class="btn-ghost">🤖 Ask AI Assistant</a>
+      </div>
+
+      <div class="hero-stats reveal">
+        <div class="stat">
+          <span class="stat-num" data-target="5000">0</span><span>+</span>
+          <span class="stat-label">Lives Touched</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num" data-target="200">0</span><span>+</span>
+          <span class="stat-label">Volunteers</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num" data-target="50">0</span><span>+</span>
+          <span class="stat-label">Events</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num" data-target="5">0</span><span>+</span>
+          <span class="stat-label">Cities</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-scroll-hint">
+      <span>Scroll to explore</span>
+      <div class="scroll-arrow">↓</div>
+    </div>
+  </section>
+
+  <!-- ========== ABOUT SECTION ========== -->
+  <section id="about" class="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-visual reveal">
+          <div class="about-img-frame">
+            <div class="about-img-placeholder">
+              <div class="smile-emoji">😊</div>
+              <p>Children thriving with education & care</p>
+            </div>
+            <div class="about-badge-float">
+              <span>🏆</span> Govt. Registered
+            </div>
+          </div>
+        </div>
+
+        <div class="about-content reveal">
+          <p class="section-eyebrow">ABOUT US</p>
+          <h2 class="section-title">Think global,<br/><span class="accent">Act local.</span></h2>
+          <p class="about-desc">
+            <strong>"NayePankh Foundation"</strong> is a non-governmental organisation with a strong desire to help the society and make it a better place for all. By doing everything in our power, and to make our vision successful, we would require your vital support.
+          </p>
+          <p class="about-desc">
+            Service to mankind is the service to god. Let's revolutionise the society together!
+          </p>
+
+          <div class="about-pillars">
+            <div class="pillar">
+              <div class="pillar-icon">🎓</div>
+              <div>
+                <h4>Mission</h4>
+                <p>Empower underprivileged children through education, skill development, and equal opportunity.</p>
+              </div>
+            </div>
+            <div class="pillar">
+              <div class="pillar-icon">🌍</div>
+              <div>
+                <h4>Vision</h4>
+                <p>A society where every child can prosper to their complete potential and enjoy equality in its true essence.</p>
+              </div>
+            </div>
+            <div class="pillar">
+              <div class="pillar-icon">🤝</div>
+              <div>
+                <h4>Values</h4>
+                <p>Compassion, transparency, youth leadership, and community-first action at every level.</p>
+              </div>
+            </div>
+          </div>
+
+          <a href="#programs" class="btn-primary">Explore Our Work</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== QUOTE SECTION ========== -->
+  <section class="quote-section">
+    <div class="container">
+      <blockquote class="big-quote reveal">
+        "If we all do something, then together there is no problem that we cannot solve!"
+      </blockquote>
+      <p class="quote-author reveal">PRASHANT SHUKLA</p>
+      <p class="quote-role reveal">Founder &amp; President, NayePankh Foundation</p>
+    </div>
+  </section>
+
+  <!-- ========== PROGRAMS SECTION ========== -->
+  <section id="programs" class="programs">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-eyebrow">WHAT WE DO</p>
+        <h2 class="section-title">Our <span class="accent">Programs</span></h2>
+        <p class="section-desc">Initiatives that create real, lasting impact in communities</p>
+      </div>
+
+      <div class="programs-grid">
+        <div class="program-card reveal">
+          <div class="card-icon">📚</div>
+          <h3>Education Support</h3>
+          <p>Free tutoring, notebooks, and stationery drives for underprivileged children to keep them in school and learning.</p>
+          <div class="card-tag">Core Program</div>
+        </div>
+        <div class="program-card reveal">
+          <div class="card-icon">🛠️</div>
+          <h3>Skill Development</h3>
+          <p>Vocational training, digital literacy, and career workshops designed for youth from marginalized communities.</p>
+          <div class="card-tag">Youth Focus</div>
+        </div>
+        <div class="program-card reveal">
+          <div class="card-icon">📢</div>
+          <h3>Awareness Campaigns</h3>
+          <p>Health, hygiene, and menstrual awareness programs — including sanitary pad distribution drives across cities.</p>
+          <div class="card-tag">Community Health</div>
+        </div>
+        <div class="program-card reveal">
+          <div class="card-icon">🌳</div>
+          <h3>Community Service</h3>
+          <p>Tree plantation drives, cleanliness campaigns, and local welfare activities led by passionate student volunteers.</p>
+          <div class="card-tag">Environment</div>
+        </div>
+        <div class="program-card reveal">
+          <div class="card-icon">🙋</div>
+          <h3>Volunteer Programs</h3>
+          <p>Join a network of 200+ student volunteers. Gain experience, certificates, and the joy of meaningful service.</p>
+          <div class="card-tag">Get Involved</div>
+        </div>
+        <div class="program-card reveal">
+          <div class="card-icon">💻</div>
+          <h3>Internship Opportunities</h3>
+          <p>Internships in content, social media, web development, and NGO management for college students.</p>
+          <div class="card-tag">Students</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== VISION CAROUSEL (from original) ========== -->
+  <section class="vision-section">
+    <div class="container">
+      <div class="vision-slider" id="visionSlider">
+        <div class="vision-slide active">
+          <div class="vision-img">
+            <div class="vision-img-placeholder">🩺</div>
+          </div>
+          <blockquote class="vision-quote">
+            "NayePankh Foundation works with a vision to create a society where children can prosper to their complete potential and enjoy equality in its true essence."
+          </blockquote>
+        </div>
+        <div class="vision-slide">
+          <div class="vision-img">
+            <div class="vision-img-placeholder">📖</div>
+          </div>
+          <blockquote class="vision-quote">
+            "Education is the most powerful weapon which you can use to change the world. We are committed to putting that weapon in every child's hands."
+          </blockquote>
+        </div>
+        <div class="vision-slide">
+          <div class="vision-img">
+            <div class="vision-img-placeholder">🌱</div>
+          </div>
+          <blockquote class="vision-quote">
+            "Small acts, when multiplied by millions of people, can transform the world. Every volunteer matters. Every rupee matters. Every smile matters."
+          </blockquote>
+        </div>
+      </div>
+      <div class="slider-dots" id="sliderDots">
+        <button class="dot active" data-slide="0"></button>
+        <button class="dot" data-slide="1"></button>
+        <button class="dot" data-slide="2"></button>
+      </div>
+      <button class="slider-btn prev" id="prevSlide">&#8249;</button>
+      <button class="slider-btn next" id="nextSlide">&#8250;</button>
+    </div>
+  </section>
+
+  <!-- ========== TEAM SECTION ========== -->
+  <section id="team" class="team-section">
+    <div class="container">
+      <div class="team-grid">
+        <div class="team-visual reveal">
+          <div class="team-img-placeholder">
+            <div class="team-emoji">👥</div>
+            <p>Our dedicated team of student volunteers</p>
+          </div>
+        </div>
+        <div class="team-content reveal">
+          <p class="section-eyebrow">JOIN OUR</p>
+          <h2 class="section-title team-title">TEAM</h2>
+          <p class="team-desc">
+            "Join our team and make a difference in the lives of those in need. At NayePankh Foundation, we are committed to creating positive change and empowering communities. By joining our team, you will have the opportunity to contribute your time, skills, and ideas to help make a real impact."
+          </p>
+          <p class="team-desc">
+            Whether you are passionate about education, health, or providing support during times of crisis, there is a place for you on our team. Join us today and be a part of an organization that is making a difference, one person at a time.
+          </p>
+          <a href="#contact" class="btn-primary">Join Now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FEATURES SECTION ========== -->
+  <section id="recognition" class="features-section">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-eyebrow">WHY CHOOSE US</p>
+        <h2 class="section-title">AI-Powered <span class="accent">Impact</span></h2>
+        <p class="section-desc">We combine technology with compassion to maximize our reach</p>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card reveal">
+          <div class="feature-icon">🤖</div>
+          <h3>AI Career Guidance</h3>
+          <p>Our AI assistant helps students and volunteers find the right opportunities and career paths.</p>
+        </div>
+        <div class="feature-card reveal">
+          <div class="feature-icon">📋</div>
+          <h3>Internship Support</h3>
+          <p>Structured internship programs with certificates recognized by colleges and universities.</p>
+        </div>
+        <div class="feature-card reveal">
+          <div class="feature-icon">⚙️</div>
+          <h3>Volunteer Management</h3>
+          <p>Efficient systems for managing 200+ active volunteers across multiple cities.</p>
+        </div>
+        <div class="feature-card reveal">
+          <div class="feature-icon">📚</div>
+          <h3>Learning Resources</h3>
+          <p>Access to curated guides, workshops, and materials for personal and professional growth.</p>
+        </div>
+        <div class="feature-card reveal">
+          <div class="feature-icon">🌐</div>
+          <h3>Community Engagement</h3>
+          <p>Active social media presence and community events keeping everyone connected and motivated.</p>
+        </div>
+        <div class="feature-card reveal">
+          <div class="feature-icon">🏅</div>
+          <h3>Govt. Recognized</h3>
+          <p>Registered under UP Govt., 80G & 12A — your donations are tax-deductible and fully transparent.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== AI CHATBOT SECTION ========== -->
+  <section id="chatbot" class="chatbot-section">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-eyebrow">POWERED BY AI</p>
+        <h2 class="section-title">Meet Your <span class="accent">AI Assistant</span></h2>
+        <p class="section-desc">Ask anything about internships, volunteering, web dev, career guidance, or NayePankh Foundation</p>
+      </div>
+
+      <div class="chatbot-wrapper reveal">
+        <div class="chat-header">
+          <div class="chat-avatar">🤖</div>
+          <div class="chat-info">
+            <span class="chat-name">NayePankh AI Assistant</span>
+            <span class="chat-status">● Online</span>
+          </div>
+          <button class="chat-clear" id="clearChat">🗑️ Clear</button>
+        </div>
+
+        <div class="chat-messages" id="chatMessages">
+          <div class="msg bot">
+            <div class="msg-avatar">🤖</div>
+            <div class="msg-bubble">
+              👋 Hello! I'm the <strong>NayePankh AI Assistant</strong>. I can help you with:
+              <ul>
+                <li>🎓 Career guidance & web development</li>
+                <li>🙋 Volunteering at NayePankh</li>
+                <li>💼 Internship opportunities</li>
+                <li>ℹ️ About the foundation</li>
+              </ul>
+              <p>What would you like to know?</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="chat-suggestions" id="chatSuggestions">
+          <button class="suggestion" onclick="sendSuggestion('How can I volunteer?')">🙋 How can I volunteer?</button>
+          <button class="suggestion" onclick="sendSuggestion('Tell me about internships')">💼 Internship opportunities</button>
+          <button class="suggestion" onclick="sendSuggestion('How to learn web development?')">💻 Learn web dev</button>
+          <button class="suggestion" onclick="sendSuggestion('What is NayePankh Foundation?')">ℹ️ About NayePankh</button>
+        </div>
+
+        <div class="chat-input-area">
+          <input type="text" id="chatInput" class="chat-input" placeholder="Ask me anything..." autocomplete="off" />
+          <button class="chat-send" id="chatSend">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT SECTION ========== -->
+  <section id="contact" class="contact-section">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-eyebrow">GET IN TOUCH</p>
+        <h2 class="section-title">Donate / <span class="accent">Contact Us</span></h2>
+        <p class="section-desc">Reach out to volunteer, donate, or partner with us</p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-form-wrap reveal">
+          <div class="contact-form" id="contactForm">
+            <div class="form-group">
+              <label for="fname">Full Name</label>
+              <input type="text" id="fname" placeholder="Your name" />
+            </div>
+            <div class="form-group">
+              <label for="femail">Email Address</label>
+              <input type="email" id="femail" placeholder="your@email.com" />
+            </div>
+            <div class="form-group">
+              <label for="fsubject">Subject</label>
+              <select id="fsubject">
+                <option value="">Select a topic</option>
+                <option>Donate</option>
+                <option>Volunteer</option>
+                <option>Internship</option>
+                <option>Partnership</option>
+                <option>General Query</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="fmsg">Message</label>
+              <textarea id="fmsg" rows="4" placeholder="Tell us how you'd like to help..."></textarea>
+            </div>
+            <button class="btn-primary full-width" onclick="submitForm()">Send Message 🚀</button>
+          </div>
+          <div class="form-success" id="formSuccess" style="display:none;">
+            <div class="success-icon">🎉</div>
+            <h3>Thank you!</h3>
+            <p>We'll get back to you within 24 hours.</p>
+          </div>
+        </div>
+
+        <div class="contact-info reveal">
+          <h3>Connect With Us</h3>
+          <p>Join our mission to revolutionise society, one act of kindness at a time.</p>
+
+          <div class="info-items">
+            <div class="info-item">
+              <span class="info-icon">📍</span>
+              <div>
+                <strong>Locations</strong>
+                <p>Kanpur, Ghaziabad & other cities, Uttar Pradesh, India</p>
+              </div>
+            </div>
+            <div class="info-item">
+              <span class="info-icon">📧</span>
+              <div>
+                <strong>Email</strong>
+                <p>info@nayepankh.com</p>
+              </div>
+            </div>
+            <div class="info-item">
+              <span class="info-icon">🏛️</span>
+              <div>
+                <strong>Registration</strong>
+                <p>UP Govt. | 80G & 12A Certified</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="social-links">
+            <a href="#" class="social-btn" aria-label="Instagram">📸</a>
+            <a href="#" class="social-btn" aria-label="Facebook">📘</a>
+            <a href="#" class="social-btn" aria-label="Twitter">🐦</a>
+            <a href="#" class="social-btn" aria-label="LinkedIn">💼</a>
+            <a href="#" class="social-btn" aria-label="YouTube">▶️</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-logo">नए पंख Foundation</div>
+          <p>A student-led NGO working to create a better society through education, awareness, and community service.</p>
+          <p class="footer-reg">80G | 12A | UP Govt. Registered</p>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#programs">Programs</a></li>
+            <li><a href="#chatbot">AI Assistant</a></li>
+            <li><a href="#contact">Donate</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Programs</h4>
+          <ul>
+            <li><a href="#programs">Education Support</a></li>
+            <li><a href="#programs">Skill Development</a></li>
+            <li><a href="#programs">Awareness Campaigns</a></li>
+            <li><a href="#programs">Volunteer Programs</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Legal</h4>
+          <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Use</a></li>
+            <li><a href="#">Certificates</a></li>
+            <li><a href="#">Annual Report</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2024 NayePankh Foundation. All rights reserved. Made with ❤️ by student volunteers.</p>
+        <a href="#home" class="back-top">↑ Back to Top</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
