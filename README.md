@@ -1,4 +1,4 @@
-# ainayepankh
+# AI Nayepankh
 ✨ Features
 
 🎨 UI & Design
